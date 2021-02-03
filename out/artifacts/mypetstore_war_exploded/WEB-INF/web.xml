@@ -79,6 +79,22 @@
         <servlet-name>SignOnServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.servlets.SignOnServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UsernameExistServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlets.UsernameExistServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FindResultServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlets.FindResultServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CategoryShowJsServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlets.CategoryShowJsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateCartJSServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlets.UpdateCartJSServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>MainServlet</servlet-name>
@@ -213,5 +229,20 @@
         <servlet-name>ConfirmOrderFormServlet</servlet-name>
         <url-pattern>/conFirmOrderForm</url-pattern>
     </servlet-mapping>
-
+    <servlet-mapping>
+        <servlet-name>UsernameExistServlet</servlet-name>
+        <url-pattern>/usernameExist</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FindResultServlet</servlet-name>
+        <url-pattern>/findResultServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CategoryShowJsServlet</servlet-name>
+        <url-pattern>/categoryShowJs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateCartJSServlet</servlet-name>
+        <url-pattern>/updateCartJSServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

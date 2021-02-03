@@ -29,7 +29,7 @@
 			</c:if>
 
 			<c:forEach var="cartItem" items="${sessionScope.cart.cartItems}">
-				<tr>
+				<tr class="bg">
 					<td>
 						<a href="viewItem?itemId=${cartItem.item.itemId}">${cartItem.item.itemId}</a>
 					</td>
@@ -45,22 +45,30 @@
 						${cartItem.inStock}
 					</td>
 					<td>
-						<input type="text" name="${cartItem.item.itemId}" value="${cartItem.quantity}" />
+						<input type="text" id="quantity" onblur="updateCart();" name="${cartItem.item.itemId}" value="${cartItem.quantity}">
+						<div id="cartMsg"></div>
+						<script type="text/javascript" src="${pageContext.request.contextPath }/js/updateCart.js"></script>
 					</td>
 					<td>
+						<!--format标签显示单价fmt:formatNumber-->
 						<fmt:formatNumber value="${cartItem.item.listPrice}" pattern="$#,##0.00" />
+						<!--<input id="price" value="${cartItem.item.listPrice}" pattern="$#,##0.00" />-->
 					</td>
 					<td>
+						<!--format标签显示总价fmt:formatNumber-->
+						<label id="total">${cartItem.total}</label>
+						<!--
 						<fmt:formatNumber value="${cartItem.total}" pattern="$#,##0.00" />
-					</td>
+						-->	</td>
 					<td>
-						<a href="removeItemFromCart?workingItemId=${cartItem.item.itemId}" class="Button">Remove</a>
+						<a id="remove" href="removeItemFromCart?workingItemId=${cartItem.item.itemId}" class="Button">Remove</a>
 					</td>
 				</tr>
+				<script src="js/cartChange.js"></script>
 			</c:forEach>
-			<tr>
-				<td colspan="7">
-					<input type="submit" value="Update Cart"/>
+			<tr id="lastTR">
+				<td colspan="7" id="lastTD">
+					Total amount:<label id="subtotal">${sessionScope.cart.subTotal}</label>
 				</td>
 				<td>&nbsp;</td>
 			</tr>

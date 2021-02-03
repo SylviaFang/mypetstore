@@ -12,19 +12,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <link rel="StyleSheet" href="css/jpetstore.css" type="text/css"
-          media="screen" />
+    <link rel="StyleSheet" href="css/jpetstore.css" type="text/css" media="screen" />
+    <link rel="StyleSheet" href="css/searchProduct.css" type="text/css" media="screen" />
+    <link rel="StyleSheet" href="css/cartChange.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/mouseEventInform.css" type="text/css" media="screen" />
 
-    <meta name="generator"
-          content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
     <title>MyPetStore</title>
-    <meta content="text/html; charset=windows-1252"
-          http-equiv="Content-Type" />
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
     <meta http-equiv="Cache-Control" content="max-age=0" />
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="Pragma" content="no-cache" />
+
+    <script type="text/javascript" src="/mypetstore/js/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -44,17 +46,24 @@
 
             <img align="middle" src="images/separator.gif" />
 
-            <a href="signOnForm">Sign In</a>
+            <c:if test="${sessionScope.account == null}">
+                <a href="signOnForm"> Sign In </a>
+            </c:if>
 
-            <a href="signOff">Sign Out</a>
+
+            <c:if test="${sessionScope.account != null}">
+                <a href="signOff"> Sign Out </a>
+
+            </c:if>
+
+            <c:if test="${sessionScope.account != null}">
+                <img align="middle" src="images/separator.gif" />
+                <a href="editAccount"> My Account </a>
+            </c:if>
 
             <img align="middle" src="images/separator.gif" />
 
-            <a href="editAccount">My Account</a>
-
-            <img align="middle" src="images/separator.gif" />
-
-            <a href="../help.html">?</a>
+            <a href="../help.html"> ? </a>
 
         </div>
     </div>
@@ -62,8 +71,13 @@
     <div id="Search">
         <div id="SearchContent">
             <form action="searchProduct" method="post">
-                <input type="text" name="keyword" size="14" /> <input type="submit"
-                                                                      name="searchProducts" value="Search" />
+                <input type="text" id="keyword" name="keyword" size="14" />
+                <div class="auto hidden" id="auto">
+                    <div class="auto_out">1</div>
+                    <div class="auto_out">2</div>
+                </div>
+                <input type="submit" name="searchProducts" value="Search" />
+                <script src="js/searchProduct.js"></script>
             </form>
         </div>
     </div>

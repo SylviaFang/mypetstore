@@ -6,7 +6,41 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9fad5f-bfb8-4d8c-a059-e0192003ab60" name="Default Changelist" comment="" />
+    <list default="true" id="2f9fad5f-bfb8-4d8c-a059-e0192003ab60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/CategoryShowJsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/FindResultServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UpdateCartJSServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UsernameExistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/cartChange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/mouseEventInform.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/searchProduct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cartChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/mouseEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/searchProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/updateCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mypetstore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mypetstore_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypetstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mypetstore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/css/jpetstore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/jpetstore.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,95 +53,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/AddItemToCartServlet.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ConfirmOrderFormServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/js/searchProduct.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="56" column="81" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="5068">
+              <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/LogServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/css/cartChange.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/mouseEventInform.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="308">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/searchProduct.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-211">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1820">
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/NewAccountFormServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/css/jpetstore.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+            <state relative-caret-position="-883">
+              <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewOrderServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="28">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/OrderDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/ItemDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/ItemDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="2520">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,41 +146,24 @@
       <list>
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/ProductDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/CategoryDAOImpl.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/service/CatalogService.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/domain/CartItem.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/AccountDAO.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/AccountDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/LogDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java" />
-        <option value="E:/gitStudy/JavaWeb-Application-Developing-Technology/mypetstore/src/org/csu/mypetstore/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/Log4InitServlet.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOffServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOnFormServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/OrderDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/LineItemDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/SequenceDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/ItemDAOImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/order/ListOrders.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/LogServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/NewAccountServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewOrderServlet.java" />
@@ -177,6 +187,27 @@
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOnServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewListOrderServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/domain/VerificationCode.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/js/register.js" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UsernameIsExistServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/util/Result.java" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UsernameExistServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/FindResultServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/searchProduct.js" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/CategoryShowJsServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/cartChange.js" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UpdateCartJSServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/updateCart.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" />
+        <option value="$PROJECT_DIR$/web/js/mouseEvent.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp" />
+        <option value="$PROJECT_DIR$/web/css/jpetstore.css" />
+        <option value="$PROJECT_DIR$/web/css/searchProduct.css" />
+        <option value="$PROJECT_DIR$/web/css/mouseEventInform.css" />
       </list>
     </option>
   </component>
@@ -193,12 +224,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="372" />
-    <option name="y" value="93" />
-    <option name="width" value="1779" />
-    <option name="height" value="1263" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="333" />
+    <option name="y" value="277" />
+    <option name="width" value="1623" />
+    <option name="height" value="1335" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -216,11 +248,6 @@
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,47 +255,17 @@
               <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
@@ -305,7 +302,7 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +310,11 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -322,23 +323,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/gitStudy/JavaWeb-Application-Developing-Technology/mypetstore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\mypetstore\web\images" />
+      <recent name="E:\web\mypetstore\web\css" />
+      <recent name="E:\web\mypetstore\web\js" />
+      <recent name="E:\web\mypetstore\web\WEB-INF\jsp\account" />
       <recent name="E:\web\mypetstore\web\WEB-INF\jsp\cart" />
-      <recent name="E:\web\mypetstore\web\WEB-INF\jsp\order" />
-      <recent name="E:\web\mypetstore\src\org\csu\mypetstore\domain" />
-      <recent name="E:\web\mypetstore\src\org\csu\mypetstore\persistence\Impl" />
-      <recent name="E:\web\mypetstore\src\org\csu\mypetstore\persistence" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.csu.mypetstore.web.servlets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\web\mypetstore\web" />
@@ -570,31 +575,37 @@
       <workItem from="1605578019053" duration="8348000" />
       <workItem from="1607329303691" duration="5038000" />
       <workItem from="1607997145637" duration="1345000" />
-      <workItem from="1609812392832" duration="518000" />
+      <workItem from="1609812392832" duration="1662000" />
+      <workItem from="1609815387533" duration="2381000" />
+      <workItem from="1612101277714" duration="7071000" />
+      <workItem from="1612108649005" duration="7566000" />
+      <workItem from="1612116332559" duration="3413000" />
+      <workItem from="1612146239551" duration="12224000" />
+      <workItem from="1612228338286" duration="15459000" />
+      <workItem from="1612314643109" duration="4102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91347000" />
+    <option name="totallyTimeSpent" value="144707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
-    <editor active="true" />
+    <frame x="222" y="185" width="1082" height="890" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86442786" visible="true" weight="0.20186113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8607427" visible="true" weight="0.28515625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.13557214" side_tool="true" visible="true" weight="0.20186113" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32911393" />
+      <window_info id="Web" order="7" sideWeight="0.1392573" side_tool="true" weight="0.28962535" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32893" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32958803" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4987775" weight="0.27736318" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.39899623" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3287879" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4987775" weight="0.2889182" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39848486" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -633,230 +644,16 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/WEB/完成Catalog模块和Cart模块的MyPetStore源码/mypetstore/web/WEB-INF/jsp/cart/Cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/cart/Checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1284">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="35" column="66" lean-forward="true" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/order/ListOrders.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/gitStudy/JavaWeb-Application-Developing-Technology/mypetstore/web/WEB-INF/jsp/cart/Cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/LogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/SequenceDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/EditAccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/Log4InitServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/NewAccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/NewOrderFormServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="63" column="83" selection-start-line="63" selection-start-column="83" selection-end-line="63" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/RemoveItemFromCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SaveAccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SearchProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ShippingAdressServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ShippingFormServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="45" column="81" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOffServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOnFormServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOnServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UpdateCartQuantitiesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="51" column="75" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewCategoryServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewItemServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
@@ -878,17 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5964">
-          <caret line="213" column="26" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/AccountDAOImpl.java">
@@ -935,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/AddItemToCartServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="280">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -954,6 +741,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -978,6 +775,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/ViewCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/persistence/Impl/OrderDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -985,6 +803,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/register.js" />
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1006,16 +825,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/util/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SearchProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/FindResultServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UsernameExistServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/catalog/SearchProducts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.5.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/updateCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UpdateCartJSServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/UpdateCartQuantitiesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/CategoryShowJsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/cartChange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/mouseEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="241" column="36" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlets/SignOnFormServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/searchProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5068">
+          <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/cartChange.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/searchProduct.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/jpetstore.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-883">
+          <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/mouseEventInform.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>mypetstore:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1080,6 +1077,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>fastjson-1.2.75</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
