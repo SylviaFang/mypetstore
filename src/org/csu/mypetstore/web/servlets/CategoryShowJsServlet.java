@@ -28,7 +28,6 @@ public class CategoryShowJsServlet extends HttpServlet {
         response.setContentType("text/xml");
         PrintWriter out = response.getWriter();
         out.write(resp);
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
